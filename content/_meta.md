@@ -1,8 +1,9 @@
 ---
-Logo: image/leaf_256x256.png
+Logo: image/Finland-Flag.png
 Tagline: My portfolio.
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+    - title: Länk till min github repo.
+      url: https://github.com/Tkl777/portfolio
       icon: github
+      
 ---

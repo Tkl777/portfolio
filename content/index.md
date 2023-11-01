@@ -6,6 +6,9 @@ Description: This is our index page.
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
+Karoliina Lempiäinen heter jag. 
 
-This is a sample home page written in markdown with some frontmatter defined.
+Jag är född och uppvuxen i Åbo, Finland, men har bott i Sverige de senaste 12 åren. Bästa i mitt liv är mina två killar på 6 & 7 år - det blir aldrig tråkigt.
+Tycker om att träna och att vara ute i naturen.
+
+![me](%assets_url%/img/me.jpg)
