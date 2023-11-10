@@ -1,0 +1,19 @@
+p {
+    font-size: 1em;
+    font-family: $main-font;
+    line-height: 1.4;
+    width: 64rem;
+    margin-bottom: 1.96rem auto;
+    margin: 1.96rem auto;
+    letter-spacing: 0.8px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $header-font;
+}
+
+
+
+* {
+    color: $font-color;
+}

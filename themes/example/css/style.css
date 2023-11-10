@@ -45,6 +45,18 @@ body {
     padding: 3em 3em 3em 0;
 }
 
+.nav li:first-child{
+    background-color: blueviolet;
+}
+
+.nav li:last-child{
+    background-color: lime;
+}
+
+.nav li:hover{
+    background-color: fuchsia;
+}
+
 @media (max-width: 767px) {
     .title, .logo {
         padding: 1em 1em 1em 0;

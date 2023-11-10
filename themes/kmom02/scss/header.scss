@@ -1,0 +1,40 @@
+/*.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backround-color: $background-color;
+    position: relative;
+}
+*/
+.site-header{
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    border-bottom: 4px solid black;
+}
+
+.site-header a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav{
+    a{
+        font-weight: bold;
+        font-size: 1.7rem;
+        text-decoration: none;
+        padding: 0 1rem;
+        color: $font-color;
+    }
+
+    a:hover{
+        border-bottom: 4px solid $accent-color;
+
+    }
+
+    .active a{
+        border-bottom: 4px solid yellow;
+    }
+}
