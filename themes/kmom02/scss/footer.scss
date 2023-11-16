@@ -1,7 +1,8 @@
 .footer {
     display: flex;
-    justify-content: space-between;
-    border-top: 2px solid #222;
+    justify-content: center;
+    border-top: 4px solid $accent-color;
+
 }
 
 .footer a {

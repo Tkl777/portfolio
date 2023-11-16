@@ -5,27 +5,21 @@ body {
     flex-direction: column;
 }
 
+.header,
 
-.header, .footer {
+.footer {
     flex: 0 0 auto;
 }
+
 .main {
-    overflow-x: scroll;
-    scrollbar-width: none;
-    overflow-y: auto;
-    display: block;
-    //max-width: 800px;
+    width: 64em;
     margin: 0 auto;
-    background-color:$background-color;
-    flex: 1 0 auto;
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 0;
+    box-sizing: border-box;
 }  
 
 .main::-webkit-scrollbar {
-        display: none;
-      }
+    display: none;
+}
   
 

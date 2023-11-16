@@ -14,7 +14,8 @@
     padding: 0 1em;
 }
 
-.nav a, .nav-toggle {
+.nav a,
+.nav-toggle {
     color: #333;
 }
 
@@ -22,24 +23,28 @@
     display: none;
 }
 
-.nav li:first-child{
-    background-color: blueviolet;
+.nav li:first-child {
+    background-color: hsl(271, 76%, 53%);
 }
 
-.nav li:nth-child(2){
-    background-color:red;
+.nav li:nth-child(2) {
+    background-color: hsl(0, 100%, 50%);
 }
 
-.nav li:last-child{
-    background-color: lime;
+.nav li:last-child {
+    background-color: hsl(120, 100%, 50%);
 }
 
-.nav li:hover{
-    background-color: fuchsia;
+.nav li:hover {
+    background-color: hsl(300, 100%, 50%);
 }
 
 @media (max-width: 767px) {
     .header {
+        flex-direction: column;
+    }
+    
+    .footer {
         flex-direction: column;
     }
 

@@ -6,22 +6,22 @@
     position: relative;
 }
 */
-.site-header{
+.site-header {
     display: flex;
     align-items: center;
 }
 
-.header{
-    border-bottom: 4px solid black;
+.header {
+    border-bottom: 4px solid $accent-color;
 }
 
-.site-header a{
+.site-header a {
     font-weight: bold;
     text-decoration: none;
 }
 
-.nav{
-    a{
+.nav {
+    a {
         font-weight: bold;
         font-size: 1.7rem;
         text-decoration: none;
@@ -29,12 +29,12 @@
         color: $font-color;
     }
 
-    a:hover{
+    a:hover {
         border-bottom: 4px solid $accent-color;
 
     }
 
-    .active a{
-        border-bottom: 4px solid yellow;
+    .active a {
+        border-bottom: 4px solid $accent-color;
     }
 }
