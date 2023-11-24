@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Young+Serif&display=swap');
+//Analog färgschema baserat på #FFFC3D
 
 $header-font: 'Gabarito', sans-serif;
 $main-font: 'Young Serif', serif;
 $font-color: #333;
 $font-alternative-color: #fff;
-$accent-color: #000;
-$background-color: rgb(255, 255, 255);
-$background-alternative-color: rgb(223, 251, 252);
+$accent-color: #68ff3d;
+$background-color: #ffe43d;
+$background-alternative-color: #b9ff3d;
+$mainbackground-color: #fffc3d;
+$nav-color1: #b9ff3d;
+$nav-color2: #ffcd3d;
+$nav-color3: #b9ff3d;
+$nav-color4: #ffcd3d;
+$nav-color5: #b9ff3d;
+$hover-color: #ffe43d;
+$code-backround-color: #b9ff3d;
+$code-font: monospace;
+$base-font-size: 1em;
+$img-brightness: 1;
+$img-contrast: 1.4;
+

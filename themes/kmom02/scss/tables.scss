@@ -1,0 +1,36 @@
+table {
+    max-width: 100%;
+    width: 100%;
+    font-size: $base-font-size;
+    border-collapse: collapse;
+    color: $font-color;
+    font-family: $main-font;
+
+    tr:nth-child(2n) {
+        background-color: $code-backround-color;
+    }
+
+    th {
+        text-align: left;
+        
+    }
+
+    td {
+        border-top: 1px solid $code-backround-color;
+    }
+
+    th,
+    td {
+        padding: 0.8 rem 1.2rem;
+    }
+
+
+}
+
+.colortable {
+    border-spacing: 4px;
+    border-collapse: separate;
+    color: $font-color;
+    font-family: $main-font;
+
+}

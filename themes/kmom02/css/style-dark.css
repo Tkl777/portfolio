@@ -5,7 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Gabarito&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@1,700&family=Victor+Mono&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -310,7 +310,7 @@ template {
 
 p {
   font-size: 1em;
-  font-family: "Young Serif", serif;
+  font-family: "Victor Mono", serif;
   line-height: 1.4;
   width: 64rem;
   margin-bottom: 1.96rem auto;
@@ -324,15 +324,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Gabarito", sans-serif;
+  font-family: "Courier Prime", serif;
 }
 
 * {
-  color: #333;
+  color: #D3D3ED;
 }
 
 body {
-  background-color: #FFE43D;
+  background-color: #3A3A54;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -346,7 +346,7 @@ body {
 .main {
   width: 64em;
   margin: 0 auto;
-  background-color: #ffffff;
+  background-color: #3A3A54;
 }
 
 .main::-webkit-scrollbar {
@@ -365,7 +365,7 @@ code {
   padding: 0.1em 0.2em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #B9FF3D;
+  background: #424387;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -375,7 +375,7 @@ pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: #B9FF3D;
+  background: #424387;
 }
 
 pre code {
@@ -6516,7 +6516,7 @@ readers do not read off random characters that represent icons */
 }
 
 .header {
-  border-bottom: 4px solid #68FF3D;
+  border-bottom: 4px solid #8284FF;
 }
 
 .site-header a {
@@ -6529,23 +6529,23 @@ readers do not read off random characters that represent icons */
   font-size: 1.7rem;
   text-decoration: none;
   padding: 0 1rem;
-  color: #333;
+  color: #D3D3ED;
 }
 .nav a:hover {
-  border-bottom: 4px solid #68FF3D;
+  border-bottom: 4px solid #8284FF;
 }
 .nav .active a {
-  border-bottom: 4px solid #68FF3D;
+  border-bottom: 4px solid #8284FF;
 }
 
 .footer {
   display: flex;
   justify-content: center;
-  border-top: 4px solid #68FF3D;
+  border-top: 4px solid #8284FF;
 }
 
 .footer a {
-  color: #333;
+  color: #D3D3ED;
 }
 
 .footer .social {
@@ -6582,27 +6582,27 @@ readers do not read off random characters that represent icons */
 }
 
 .nav li:first-child {
-  background-color: #B9FF3D;
+  background-color: #B5B6FF;
 }
 
 .nav li:nth-child(2) {
-  background-color: #FFCD3D;
+  background-color: #B5B6FF;
 }
 
 .nav li:nth-child(3) {
-  background-color: #B9FF3D;
+  background-color: #B5B6FF;
 }
 
 .nav li:nth-child(4) {
-  background-color: #FFCD3D;
+  background-color: #B5B6FF;
 }
 
 .nav li:last-child {
-  background-color: #B9FF3D;
+  background-color: #B5B6FF;
 }
 
 .nav li:hover {
-  background-color: #FFE43D;
+  background-color: #8284FF;
 }
 
 @media (max-width: 767px) {
@@ -6775,17 +6775,17 @@ table {
   width: 100%;
   font-size: 1em;
   border-collapse: collapse;
-  color: #333;
-  font-family: "Young Serif", serif;
+  color: #D3D3ED;
+  font-family: "Victor Mono", serif;
 }
 table tr:nth-child(2n) {
-  background-color: #B9FF3D;
+  background-color: #424387;
 }
 table th {
   text-align: left;
 }
 table td {
-  border-top: 1px solid #B9FF3D;
+  border-top: 1px solid #424387;
 }
 table th,
 table td {
@@ -6795,6 +6795,6 @@ table td {
 .colortable {
   border-spacing: 4px;
   border-collapse: separate;
-  color: #333;
-  font-family: "Young Serif", serif;
+  color: #D3D3ED;
+  font-family: "Victor Mono", serif;
 }

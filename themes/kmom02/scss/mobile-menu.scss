@@ -24,19 +24,27 @@
 }
 
 .nav li:first-child {
-    background-color: hsl(271, 76%, 53%);
+    background-color: $nav-color1;
 }
 
 .nav li:nth-child(2) {
-    background-color: hsl(0, 100%, 50%);
+    background-color: $nav-color2;
+}
+
+.nav li:nth-child(3) {
+    background-color: $nav-color3;
+}
+
+.nav li:nth-child(4) {
+    background-color: $nav-color4;
 }
 
 .nav li:last-child {
-    background-color: hsl(120, 100%, 50%);
+    background-color: $nav-color5;
 }
 
 .nav li:hover {
-    background-color: hsl(300, 100%, 50%);
+    background-color: $hover-color;
 }
 
 @media (max-width: 767px) {

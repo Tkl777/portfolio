@@ -1,8 +1,10 @@
 .landingpage {
     display: grid;
     gap: 1rem 2rem;
-}
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(9, 150px);
 
+}
 
 .landingpage h1 {
     grid-column: span 3;
@@ -61,51 +63,52 @@
         grid-column: 1 / 1;
         grid-row: 2 / 2;
         border: 1px solid #ccc;
-        padding: 1 rem;
+        padding: 0.5 rem;
     }
     
     .box2, {
         grid-column: 1 / 1;
         grid-row: 3 / 3;
         border: 1px solid #ccc;
-        padding: 1 rem;
+        padding: 0.5 rem;
     }
     
-    .box2, {
+    .box3, {
         grid-column: 1 / 1;
         grid-row: 4 / 4;
         border: 1px solid #ccc;
-        padding: 1 rem;
+        padding: 0.5 rem;
     }
     
-    .box4 {
+    .box4, {
         grid-column: 1 / 1;
         grid-row: 5 / 5;
         border: 1px solid #ccc;
-        padding: 1 rem;
+        padding: 0.5 rem;
     }
     
-    .box5, {
+    .box5 {
         grid-column: 1 / 1;
         grid-row: 6 / 6;
         border: 1px solid #ccc;
-        padding: 1 rem;
+        padding: 0.5 rem;
     }
     
-    .box6 {
+    .box6, {
         grid-column: 1 / 1;
         grid-row: 7 / 7;
         border: 1px solid #ccc;
-        padding: 1 rem;
+        padding: 0.5 rem;
     }
-    
     
     .box7 {
         grid-column: 1 / 1;
         grid-row: 8 / 8;
         border: 1px solid #ccc;
-        padding: 1 rem;
+        padding: 0.5 rem;
     }
+    
+    
     
 }
 
