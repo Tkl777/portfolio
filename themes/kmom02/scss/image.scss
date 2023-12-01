@@ -1,4 +1,10 @@
-img {
+.imgme {
     max-width: 30%;
     filter: brightness($img-brightness) contrast($img-contrast); 
 }
+
+img {
+    max-width: 100%;
+}
+
+

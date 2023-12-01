@@ -15,4 +15,4 @@ Bästa i mitt liv är mina två killar på 6 & 7 år - det blir aldrig tråkigt.
 Tycker om att träna och att vara ute i naturen.
 
 
-![me](%assets_url%/img/me.jpg)
+![me](%assets_url%/img/me.jpg){.imgme}
